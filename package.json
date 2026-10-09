@@ -9,12 +9,16 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "better-auth": "^1.7.7",
     "next": "16.4.0",
+    "pg": "^8.23.1",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "react-hot-toast": "^2.6.1"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
+    "daisyui": "^5.7.47",
     "eslint": "^9",
     "eslint-config-next": "16.4.0",
     "tailwindcss": "^4"
