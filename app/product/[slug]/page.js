@@ -65,7 +65,6 @@ export default async function ProductPage({ params }) {
         ← {product.categoryNameBn}
       </Link>
 
-      {/* Summary */}
       <section className="mt-4 rounded-box border border-base-300 bg-white p-5 sm:p-6">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
           <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-2xl bg-base-200 text-5xl">
@@ -94,7 +93,6 @@ export default async function ProductPage({ params }) {
         </div>
       </section>
 
-      {/* Price summary */}
       <section className="mt-6">
         <h2 className="mb-3 text-lg font-bold">দামের সারসংক্ষেপ</h2>
         <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
@@ -111,7 +109,6 @@ export default async function ProductPage({ params }) {
         </div>
       </section>
 
-      {/* Markets */}
       <section className="mt-8">
         <h2 className="mb-3 text-lg font-bold">বাজারভিত্তিক আজকের দাম</h2>
         {divisions.length === 0 ? (

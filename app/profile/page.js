@@ -15,7 +15,6 @@ export default async function ProfilePage() {
     <div className="px-4 py-12">
       <div className="mx-auto max-w-md rounded-box border border-base-300 bg-white p-6 text-center sm:p-8">
         {user.image ? (
-          // eslint-disable-next-line @next/next/no-img-element
           <img
             src={user.image}
             alt=""

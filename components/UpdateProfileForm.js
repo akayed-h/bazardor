@@ -20,7 +20,6 @@ export default function UpdateProfileForm({ initialName }) {
     }
 
     setLoading(true);
-    // https://better-auth.com/docs/concepts/users-accounts#update-user
     const { error } = await authClient.updateUser({ name: trimmed });
     setLoading(false);
 

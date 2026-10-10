@@ -24,7 +24,6 @@ export default function Ticker({ products }) {
   return (
     <div className="ticker overflow-hidden border-b border-base-300 bg-base-200 py-2" aria-label="আজকের দামের তালিকা">
       <div className="ticker-track">
-        {/* list is rendered twice so the -50% translate loops seamlessly */}
         {[0, 1].map((copy) => (
           <div key={copy} className="flex" aria-hidden={copy === 1}>
             {products.map((p) => (

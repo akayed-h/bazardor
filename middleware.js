@@ -1,7 +1,6 @@
 import { NextResponse } from "next/server";
 import { getSessionCookie } from "better-auth/cookies";
 
-// Optimistic check (cookie only). Pages re-validate the session on the server.
 export function middleware(request) {
   const sessionCookie = getSessionCookie(request);
 

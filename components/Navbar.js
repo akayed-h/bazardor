@@ -50,7 +50,6 @@ export default function Navbar({ categories = [], dateText }) {
                 aria-label="প্রোফাইল মেনু"
               >
                 {user.image ? (
-                  // eslint-disable-next-line @next/next/no-img-element
                   <img
                     src={user.image}
                     alt=""

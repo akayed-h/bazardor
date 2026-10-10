@@ -5,7 +5,6 @@ import SignInForm from "@/components/SignInForm";
 
 export const metadata = { title: "সাইন ইন" };
 
-// Only allow same-site relative paths to prevent open redirects.
 function safePath(p) {
   return typeof p === "string" && p.startsWith("/") && !p.startsWith("//") ? p : "/";
 }

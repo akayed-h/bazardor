@@ -45,7 +45,6 @@ body {
   color: var(--color-base-content);
 }
 
-/* Price ticker (marquee) */
 @keyframes bazar-marquee {
   from {
     transform: translateX(0);
